@@ -2,12 +2,12 @@
 <!DOCTYPE language SYSTEM "language.dtd">
 
 <language
-	name="Nimrod"
+	name="Nim"
 	version="1.0"
 	kateversion="2.4"
 	section="Sources"
 	extensions="*.nim"
-	mimetype="text/x-nimrod">
+	mimetype="text/x-nim">
 	
 	<highlighting>
 		<list name="keywords">
@@ -32,6 +32,7 @@
 			<item> continue </item>
 			<item> declared </item> <!-- system -->
 			<item> declaredinscope </item> <!-- system -->
+			<item> defer </item>
 			<item> defined </item> <!-- system -->
 			<item> discard </item>
 			<item> do </item>
@@ -52,6 +53,7 @@
 			<item> return </item>
 			<item> sizeof </item> <!-- system -->
 			<item> try </item>
+			<item> type </item>
 			<item> when </item>
 			<item> while </item>
 			<item> quit </item> <!-- system -->
@@ -76,7 +78,9 @@
 		</list>
 		
 		<list name="types">
+			<item> any </item>
 			<item> array </item>
+			<item> auto </item>
 			<item> bool </item>
 			<item> byte </item>
 			<item> cchar </item>
@@ -85,9 +89,16 @@
 			<item> cfloat </item>
 			<item> cint </item>
 			<item> clong </item>
+			<item> clongdouble </item>
+			<item> clonglong </item>
+			<item> concept </item>
+			<item> cschar </item>
 			<item> cshort </item>
 			<item> cstring </item>
+			<item> cuchar </item>
 			<item> cuint </item>
+			<item> culong </item>
+			<item> culonglong </item>
 			<item> distinct </item>
 			<item> enum </item>
 			<item> expr </item>
