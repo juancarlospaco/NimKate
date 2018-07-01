@@ -20,6 +20,7 @@ wget -o "~/.local/share/org.kde.script/indentation/nim.js" https://raw.githubuse
 - **Colors**: Kate > Settings > Configure Kate > Fonts & Colors > (Schema) Import...
 
 This does NOT require KatePart5 installed, works Ok with Kate only.
+Source: https://docs.kde.org/trunk5/en/applications/katepart/highlight.html
 
 
 # License
