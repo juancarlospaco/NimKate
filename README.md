@@ -26,4 +26,4 @@ This does NOT require KatePart5 installed, works Ok with Kate only.
 
 All code is released under [WTFPL](http://www.wtfpl.net/) unless explicitly stated otherwise.
 
-[Original Repo (Dead)](https://github.com/PhilipWitte/NimKate#kate-s-nimrod)
+[Original Repo (Dead)](https://github.com/PhilipWitte/NimKate#kate-s-nimrod "All Credit to the Original Author")
