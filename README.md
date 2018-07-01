@@ -1,24 +1,22 @@
-Kate ♥'s Nimrod
-===
-[Nimrod](http://nimrod-lang.org/) language support and colors for [Kate](http://www.kde.org/applications/utilities/kate/).
+# Kate ♥ Nim
 
-Screenshots
----
-[![Visual Studios Light](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_VSLight_Thumb.png "Visual Studios Light")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_VSLight.png)
-[![Github](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_Github_Thumb.png "Github")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_Github.png)
-[![Cotton Candy](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_CottonCandy_Thumb.png "Cotton Candy")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_CottonCandy.png)
-[![400 Roses](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_400Roses_Thumb.png "400 Roses")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_400Roses.png)
-[![Visual Studios Dark](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_VSDark_Thumb.png "Visual Studios Dark")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_VSDark.png)
-[![Obsidian](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_Obsidian_Thumb.png "Obsidian")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_Obsidian.png)
-[![Monokai](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_Monokai_Thumb.png "Monokai")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_Monokai.png)
-[![LESS](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_LESS_Thumb.png "LESS")](http://www.reign-studios.net/philipwitte/nimrod/kate/Syntax_LESS.png)
+[Nim](http://nim-lang.org) language support and colors for [Kate](http://www.kde.org/applications/utilities/kate/).
 
-Installation
----
-- **Syntax**: Copy `nimrod.xml` to `~/.kde4/share/apps/katepart/syntax/`
-- **Indent**: Copy `nimrod.js` to `~/.kde4/share/apps/katepart/script/indentation/`
+# Screenshots
+
+![NimKate](nimkate.png)
+
+# Install
+
+This does NOT require KatePart5 installed, works Ok with Kate only.
+
+- **Syntax**: Save XML file to `"~/.local/share/org.kde.syntax-highlighting/syntax/nim.xml"`
+- **Indent**: Save JS file to `"~/.local/share/org.kde.script/indentation/nim.js"`
 - **Colors**: Kate > Settings > Configure Kate > Fonts & Colors > (Schema) Import...
 
-License
----
+
+# License
+
 All code is released under [WTFPL](http://www.wtfpl.net/) unless explicitly stated otherwise.
+
+[Original Repo (Dead)](https://github.com/PhilipWitte/NimKate#kate-s-nimrod)
